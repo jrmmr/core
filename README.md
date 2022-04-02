@@ -60,19 +60,17 @@ git clone https://github.com/terra-money/level-to-rocks
 ```sh
 make build
 ```
-
 3. How to use
-   1. create a directory for rocksdb
-  ```sh
-  mkdir -p data_rocksdb; cd data_rocksdb
-  ``` 
-   2. execute level-to-rocks
-  > Usage: level-to-rocks \<directory> \<db name>
-  >For example if you have application.db in directory `data`
-  ```sh
-  level-to-rocks ~/.terra/data application
-  ```
-
+    1. create a directory for rocksdb
+    ```sh
+    mkdir -p data_rocksdb; cd data_rocksdb
+    ```
+    2. execute level-to-rocks
+    > Usage: level-to-rocks \<directory> \<db name> \
+    For example if you have application.db in directory `data`
+    ```sh
+    level-to-rocks ~/.terra/data application
+    ```
 4. take a coffee
 5. When it's done, move the converted files to _~/.terra/data/_
 
