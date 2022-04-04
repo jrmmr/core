@@ -75,3 +75,5 @@ make build
 5. When it's done, move the converted files to _~/.terra/data/_
 
 ## start `terrad`
+
+Listen to the multicast address `225.0.0.1:11234` to get the decoded transactions.
